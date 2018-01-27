@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "dot-notation": "error",
+    "@joyeecheung/node-core/require-buffer": "error",
+    "@joyeecheung/node-core/buffer-constructor": "error",
+    "@joyeecheung/node-core/no-let-in-for-declaration": "error",
+    "@joyeecheung/node-core/lowercase-name-for-primitive": "error"
+  }
+}
