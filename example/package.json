@@ -1,0 +1,19 @@
+{
+  "name": "test-eslint",
+  "version": "1.0.0",
+  "description": "Example for @joyeecheung/eslint-config-node-core",
+  "main": "index.js",
+  "scripts": {
+    "lint-fix": "eslint . --fix",
+    "lint": "eslint . --cache"
+  },
+  "author": "Joyee Cheung <joyeec9h3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@joyeecheung/eslint-config-node-core": "^1.0.0",
+    "@joyeecheung/eslint-plugin-node-core": "^1.0.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "@joyeecheung/node-core/require-buffer": "error"
+  }
+}
