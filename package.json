@@ -1,0 +1,26 @@
+{
+  "name": "@joyeecheung/eslint-config-node-core",
+  "version": "1.0.0",
+  "description": "Sharable ESLint configurations following the style guide of Node.js core",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Joyee Cheung <joyeec9h3@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "babel-eslint": "^8.2.1",
+    "@joyeecheung/eslint-plugin-node-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "js-yaml": "^3.10.0",
+    "@joyeecheung/eslint-plugin-node-core": "^1.0.0"
+  },
+  "files": [
+    "index.js",
+    "eslintrc.json"
+  ]
+}
