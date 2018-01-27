@@ -1,6 +1,7 @@
 {
   "root": true,
   "plugins": [
+    "@joyeecheung/eslint-plugin-node-core",
     "markdown"
   ],
   "env": {
@@ -300,7 +301,7 @@
     "rest-spread-spacing": "error",
     "symbol-description": "error",
     "template-curly-spacing": "error",
-    "no-unescaped-regexp-dot": "error"
+    "@joyeecheung/node-core/no-unescaped-regexp-dot": "error"
   },
   "globals": {
     "COUNTER_HTTP_CLIENT_REQUEST": false,

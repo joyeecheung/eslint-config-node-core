@@ -19,7 +19,11 @@ for (const key of configRules) {
   if (pluginRules[key]) {
     const value = config.rules[key];
     delete config.rules[key];
-    config.rules[`@joyeecheung/eslint-plugin-node-core/${key}`] = value;
+    config.rules[`@joyeecheung/node-core/${key}`] = value;
   }
 }
+
+config.plugins =
+  ['@joyeecheung/eslint-plugin-node-core'].concat(config.plugins);
+
 fs.writeFileSync('eslintrc.json', JSON.stringify(config, null, 2));
